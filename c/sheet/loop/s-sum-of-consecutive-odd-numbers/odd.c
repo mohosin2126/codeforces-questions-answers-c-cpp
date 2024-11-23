@@ -14,11 +14,11 @@ int main()
         }
 
         int sum = 0;
-        for (int j = x + 1; i < y; j++)
+        for (int j = x + 1; j < y; j++)
         {
-            if (i % 2 != 0)
+            if (j % 2 != 0)
             {
-                sum += i;
+                sum += j;
             }
         }
         printf("%d\n", sum);
